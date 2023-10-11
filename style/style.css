@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.categories-container {
+    display: flex;
+}
+
+.categories-container ul {
+    align-items: center;
+    display: flex;
+}
+
+.categories-container ul li {
+    color: white;
+    list-style-type: none;
+    margin-right: 1rem;
+}
+
+header {
+    background-color: #FF6900;
+}
+
+.logo-container img {
+    height: 2rem;
+}
+
+nav {
+    display: flex;
+    margin: 0 16.5rem;
+    padding: 1rem 0.5rem;
+    justify-content: space-between;
+}
+
+.profile-options-container {
+    align-items: center;
+    display: flex;
+}
+
+.profile-options-container i {
+    color: white;
+    margin-left: 0.5rem;
+}
