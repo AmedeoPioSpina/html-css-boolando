@@ -4,6 +4,33 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.article {
+    margin-bottom: 2.5rem;
+}
+
+.articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4rem 17rem 0 17rem;
+}
+
+.article-name {
+    font-size: 1.12rem;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-red {
+    background-color: red;
+}
+
 .categories-container {
     display: flex;
 }
@@ -19,12 +46,85 @@
     margin-right: 1rem;
 }
 
+.color-red-bold {
+    color: red;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1A1A1A;
+}
+
+footer section {
+    color: white;
+    display: flex;
+    margin: 0 17rem;
+    padding: 2rem 0;
+    justify-content: space-between;
+}
+
 header {
-    background-color: #FF6900;
+    padding-bottom: 4.45rem;
+    
+}
+
+.heart-icon-contaier {
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 36rem;
+}
+
+.heart-icon-contaier i {
+    font-size: 1.5rem;
+    padding: 0.7rem;
+}
+
+.heart-icon-contaier:hover i {
+    color: red;
+}
+
+.image-article {
+    position: relative;
+    display: inline;
+}
+
+.image-article img{
+    height: 40rem;
+}
+
+.image-article:hover .pop-up-image {
+    visibility: visible;
+}
+
+.insertion-image {
+    color: white;
+    display: flex;
+    position: absolute;
+    bottom: 3rem;
+}
+
+.insertion-image p {
+    padding: 0.2rem 0.5rem;
+    margin-right: 0.4rem;
+}
+
+.left-footer-content ul {
+    display: flex;
+}
+
+.left-footer-content ul li {
+    font-size: 1rem;
+    list-style-type: none;
+    margin-right: 0.5rem;
 }
 
 .logo-container img {
     height: 2rem;
+}
+
+main {
+    margin-bottom: 1rem;
 }
 
 nav {
@@ -32,6 +132,23 @@ nav {
     margin: 0 16.5rem;
     padding: 1rem 0.5rem;
     justify-content: space-between;
+}
+
+.nav-container {
+    background-color: #FF6900;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.pop-up-image {
+    left: 0;
+    position: absolute;
+    visibility: hidden;
+}
+
+.price-container p{
+    display: inline;
 }
 
 .profile-options-container {
@@ -42,4 +159,17 @@ nav {
 .profile-options-container i {
     color: white;
     margin-left: 0.5rem;
+}
+
+.right-footer-content p {
+    text-align: left;
+}
+
+.social-icons-container i {
+    font-size: 1.3rem;
+    padding-right: 0.5rem;
+}
+
+.society, .right-footer-content p  {
+    margin-bottom: 0.8rem;
 }
